@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(cors(
     {
-        origin: ['*'],
+        origin: ['https://projeto-fatto-frontend.vercel.app'],
         credentials: true,
         allowedHeaders: ['Origin', 'Content-Type', 'Authorization'],
         methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS']
